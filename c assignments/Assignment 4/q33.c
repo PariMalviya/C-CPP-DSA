@@ -1,0 +1,11 @@
+//q33. input a number as 345 and output as 340
+#include <stdio.h>
+int main()
+{
+    int a ;
+    printf("Enter a number : ");
+    scanf("%d",&a);
+    printf("%d",(a/10)*10);
+    return 0;
+    
+}
